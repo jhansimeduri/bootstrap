@@ -35,36 +35,74 @@ Notes:	 Hand coded for Udemy.com
    Carousel
    -------------------------------------- */
 #myCarousel .item{
-  height: 400px;
+  height: 500px;
 }
 #slide1{
   background: url('../../images/slide2.jpg') top center no-repeat;
+  background-size: cover;
 }
 #slide2{
   background: url('../../images/slide1.jpg') top center no-repeat;
+background-size: cover;
 }
 #slide3{
   background: url('../../images/slide3.jpg') top center no-repeat;
+background-size: cover;
 }
 .well{
-  background-color:#eee;
+  margin-top: 10px;
   }
 .page-header h1{
-  font-size: 30px;
+  font-size:40px;
+  text-align: center;
+color: blue;
 }
 .page-header small{
   font-size: 20px;
 }
-.page-header{
-  font-family: sans-serif;
-}
+
+
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+body{
+  font-family:Droid Sans;
+}
+.lead{
+  font-size: 20px;
+}
+#featuresHeading{
+text-align: center;
+color: blue;;
+}
 #features{
 text-align: center;
 }
-
+#tab1{
+  text-align: left;
+  margin-top: 10px;
+}
+#tab2 img{
+  text-align:right;
+  width: 500px;
+  height: 300px;
+}
+#foot{
+  text-align: center;
+  background:#989898;
+ margin-top: 20px;
+}
+#foot h6,p{
+  font-size: 20;
+  color: black;
+}
+.middle{
+  padding-top: 30px;
+}
+#moreInfo h3{
+  text-align: center;
+  color: blue;
+}
 
 /* --------------------------------------
    Media Queries
